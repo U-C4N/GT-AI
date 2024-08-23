@@ -101,15 +101,13 @@ export function Component() {
         const translation = await translateText(userInput, selectedModel)
         setTranslatedText(translation)
       } else {
-        const words = await predictNextWords(userInput, selectedModel)
-        setPredictedWords(words)
+        setPredictedWords(words.filter((word: string) => word.trim() !== ""))
         setCurrentWordIndex(0)
-        const detectedLang = await detectLanguage(userInput)
+        const detectedLang = await detectLanguage(text)
         setDetectedLanguage(detectedLang)
-      }
-    } catch (error) {
-      console.error('Error:', error)
-      setPredictedWords([])
+      } catch (error) {
+        console.error('Error:', error)
+        setPredictedWords([])
       setTranslatedText("")
       setError(activeTab === 'translate' ? "Translation failed. Please try again." : "Prediction failed. Please try again.")
     } finally {
