@@ -82,3 +82,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Vercel](https://vercel.com/) for Next.js and hosting solutions.
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework.
 - [Radix UI](https://www.radix-ui.com/) for accessible React components.
+
+## Author
+
+<p align="left">
+<b>Umutcan Edizaslan:</b>
+<a href="https://github.com/U-C4N" target="blank"><img align="center" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" alt="TutTrue" height="30" width="40" /></a>
+<a href="https://x.com/UEdizaslan" target="blank"><img align="center" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Twitter.svg" height="30" width="40" /></a>
+</p>
