@@ -24,7 +24,7 @@ export function Component() {
       setIsLoading(true)
       try {
         const words = await predictNextWords(text, selectedModel)
-        setPredictedWords(words.filter(word => word.trim() !== ""))
+        setPredictedWords(words.filter((word: string) => word.trim() !== ""))
         setCurrentWordIndex(0)
         const detectedLang = await detectLanguage(text)
         setDetectedLanguage(detectedLang)
