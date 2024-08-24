@@ -2,6 +2,9 @@
 
 AI Assistant is a powerful web application that combines language translation and text completion capabilities using advanced AI models from Groq.
 
+![Byte Terminal Screenshot](Animation.gif)
+
+
 ## Features
 
 - **Translation**: Translate text from any language to English.
